@@ -18,13 +18,7 @@ $ cd <THIS_REPOSITORY_NAME>
 `npm`もしくは`yarn`を使用してください。
 
 ```
-$ npm install
-```
-
-or
-
-```
-$ yarn install
+$ npm i
 ```
 
 #### browser
@@ -132,36 +126,10 @@ $ docker run -it <THIS_APP_NAME>
 
 ### ローカル
 
-
-
 #### SCSSのコンパイル
 
 ```
 $ npm run scss
-```
-
-or 
-
-```
-$ yarn run scss
-```
-
-#### CSSのprefix
-
-```
-$ npx gulp
-```
-
-以下は動作確認ができていないため推奨しません。
-
-```
-$ npm run prefix
-```
-
-or 
-
-```
-$ yarn run prefix
 ```
 
 #### 実行＋コンパイル
@@ -169,11 +137,3 @@ $ yarn run prefix
 ```
 $ npm run test
 ```
-
-or 
-
-```
-$ yarn run test
-```
-
-### Docker
